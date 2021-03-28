@@ -1,4 +1,4 @@
-# Binance API Csharp Client !
+# Binance API Csharp Client!
 ### C#.NET client for Binance Exchange API.
 
 ## Features

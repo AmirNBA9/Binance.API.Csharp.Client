@@ -56,6 +56,4 @@ Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Donations
 If you find this tool useful, you can show you support with a kind donation:
 
-**BTC:** 19cgA4YLfxakSvGyu9isdwBJw11mhCVNAp
-
-**ETH:** 0xf059966c50727c1a67c112360686fbfbb0798cfa
+** USDT:** TEzHBMGGsGnyBimELJPnDppiLviDo2xN7Z

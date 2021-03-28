@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Binance.API.Csharp.Client.Models.WebSocket
+namespace BinanceClient.Models.WebSocket
 {
     public class KlineMessage
     {

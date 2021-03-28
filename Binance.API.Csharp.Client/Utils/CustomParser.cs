@@ -1,10 +1,10 @@
-﻿using Binance.API.Csharp.Client.Models.Market;
-using Binance.API.Csharp.Client.Models.WebSocket;
+﻿using BinanceClient.Models.Market;
+using BinanceClient.Models.WebSocket;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Binance.API.Csharp.Client.Utils
+namespace BinanceClient.Utils
 {
     /// <summary>
     /// Class to parse some specific entities.

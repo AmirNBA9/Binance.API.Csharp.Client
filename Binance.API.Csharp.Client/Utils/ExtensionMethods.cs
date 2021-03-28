@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 
-namespace Binance.API.Csharp.Client.Utils
+namespace BinanceClient.Utils
 {
     /// <summary>
     /// Class to define extension methods.

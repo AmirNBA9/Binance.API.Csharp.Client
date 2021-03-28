@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Binance.API.Csharp.Client.Models.Enums;
+using BinanceClient.Models.Enums;
 using System.Threading;
-using Binance.API.Csharp.Client.Models.WebSocket;
+using BinanceClient.Models.WebSocket;
 
-namespace Binance.API.Csharp.Client.Test
+namespace BinanceClient.Test
 {
     [TestClass]
     public class BinanceTest

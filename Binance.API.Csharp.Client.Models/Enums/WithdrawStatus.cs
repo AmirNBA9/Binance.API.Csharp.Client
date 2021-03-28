@@ -1,4 +1,4 @@
-﻿namespace Binance.API.Csharp.Client.Models.Enums
+﻿namespace BinanceClient.Models.Enums
 {
     public enum WithdrawStatus
     {

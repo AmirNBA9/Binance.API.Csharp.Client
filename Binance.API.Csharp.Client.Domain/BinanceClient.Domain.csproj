@@ -7,8 +7,8 @@
     <ProjectGuid>{E255F763-A2FE-43A8-9331-019796C935C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Binance.API.Csharp.Client.Domain</RootNamespace>
-    <AssemblyName>Binance.API.Csharp.Client.Domain</AssemblyName>
+    <RootNamespace>BinanceClient.Domain</RootNamespace>
+    <AssemblyName>BinanceClient.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -51,9 +51,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Binance.API.Csharp.Client.Models\Binance.API.Csharp.Client.Models.csproj">
+    <ProjectReference Include="..\Binance.API.Csharp.Client.Models\BinanceClient.Models.csproj">
       <Project>{7cf40eb8-d81d-40b5-b849-17e5662175d6}</Project>
-      <Name>Binance.API.Csharp.Client.Models</Name>
+      <Name>BinanceClient.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

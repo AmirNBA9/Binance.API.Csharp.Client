@@ -1,19 +1,19 @@
-﻿using Binance.API.Csharp.Client.Domain.Abstract;
-using Binance.API.Csharp.Client.Domain.Interfaces;
-using Binance.API.Csharp.Client.Models.Account;
-using Binance.API.Csharp.Client.Models.Enums;
-using Binance.API.Csharp.Client.Models.General;
-using Binance.API.Csharp.Client.Models.Market;
-using Binance.API.Csharp.Client.Models.Market.TradingRules;
-using Binance.API.Csharp.Client.Models.UserStream;
-using Binance.API.Csharp.Client.Models.WebSocket;
-using Binance.API.Csharp.Client.Utils;
+﻿using BinanceClient.Domain.Abstract;
+using BinanceClient.Domain.Interfaces;
+using BinanceClient.Models.Account;
+using BinanceClient.Models.Enums;
+using BinanceClient.Models.General;
+using BinanceClient.Models.Market;
+using BinanceClient.Models.Market.TradingRules;
+using BinanceClient.Models.UserStream;
+using BinanceClient.Models.WebSocket;
+using BinanceClient.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Binance.API.Csharp.Client
+namespace BinanceClient
 {
     public class BinanceClient : BinanceClientAbstract, IBinanceClient
     {

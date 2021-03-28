@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Binance.API.Csharp.Client.Models.Account
+namespace BinanceClient.Models.Account
 {
     public class WithdrawResponse
     {

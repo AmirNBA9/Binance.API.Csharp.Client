@@ -1,4 +1,4 @@
-﻿namespace Binance.API.Csharp.Client.Models.Enums
+﻿namespace BinanceClient.Models.Enums
 {
     /// <summary>
     /// Different sides of an order.

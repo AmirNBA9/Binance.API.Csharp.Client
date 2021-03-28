@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Binance.API.Csharp.Client.Models.WebSocket
+namespace BinanceClient.Models.WebSocket
 {
     public class AccountUpdatedMessage
     {

@@ -1,7 +1,7 @@
-﻿using Binance.API.Csharp.Client.Domain.Interfaces;
-using Binance.API.Csharp.Client.Models.Market.TradingRules;
+﻿using BinanceClient.Domain.Interfaces;
+using BinanceClient.Models.Market.TradingRules;
 
-namespace Binance.API.Csharp.Client.Domain.Abstract
+namespace BinanceClient.Domain.Abstract
 {
     public abstract class BinanceClientAbstract
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Binance.API.Csharp.Client.Models.UserStream
+namespace BinanceClient.Models.UserStream
 {
     public class UserStreamInfo
     {

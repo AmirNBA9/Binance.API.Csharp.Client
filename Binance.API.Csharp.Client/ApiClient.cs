@@ -1,17 +1,17 @@
-﻿using Binance.API.Csharp.Client.Domain.Abstract;
-using Binance.API.Csharp.Client.Domain.Interfaces;
+﻿using BinanceClient.Domain.Abstract;
+using BinanceClient.Domain.Interfaces;
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Binance.API.Csharp.Client.Utils;
-using Binance.API.Csharp.Client.Models.Enums;
+using BinanceClient.Utils;
+using BinanceClient.Models.Enums;
 using WebSocketSharp;
-using Binance.API.Csharp.Client.Models.WebSocket;
+using BinanceClient.Models.WebSocket;
 using System.Net;
 using Newtonsoft.Json.Linq;
 
-namespace Binance.API.Csharp.Client
+namespace BinanceClient
 {
     public class ApiClient : ApiClientAbstract, IApiClient
     {

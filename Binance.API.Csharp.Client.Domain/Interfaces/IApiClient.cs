@@ -1,9 +1,9 @@
-﻿using Binance.API.Csharp.Client.Models.Enums;
-using Binance.API.Csharp.Client.Models.WebSocket;
+﻿using BinanceClient.Models.Enums;
+using BinanceClient.Models.WebSocket;
 using System.Threading.Tasks;
-using static Binance.API.Csharp.Client.Domain.Abstract.ApiClientAbstract;
+using static BinanceClient.Domain.Abstract.ApiClientAbstract;
 
-namespace Binance.API.Csharp.Client.Domain.Interfaces
+namespace BinanceClient.Domain.Interfaces
 {
     public interface IApiClient
     {

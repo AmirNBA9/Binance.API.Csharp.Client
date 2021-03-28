@@ -7,8 +7,8 @@
     <ProjectGuid>{7CF40EB8-D81D-40B5-B849-17E5662175D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Binance.API.Csharp.Client.Models</RootNamespace>
-    <AssemblyName>Binance.API.Csharp.Client.Models</AssemblyName>
+    <RootNamespace>BinanceClient.Models</RootNamespace>
+    <AssemblyName>BinanceClient.Models</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

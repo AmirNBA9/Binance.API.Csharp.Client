@@ -1,8 +1,8 @@
-# Binance API Csharp Client ![Icon](https://github.com/morpheums/Binance.API.Csharp.Client/blob/master/Binance.API.Csharp.Client/BinanceLogo.png?raw=true)
+# Binance API Csharp Client ![Icon](https://github.com/morpheums/BinanceClient/blob/master/BinanceClient/BinanceLogo.png?raw=true)
 ### C#.NET client for Binance Exchange API.
-[![GitHub last commit](https://img.shields.io/github/last-commit/morpheums/Binance.API.Csharp.Client.svg?style=plastic)]()
-[![NuGet](https://img.shields.io/nuget/v/Binance.API.Csharp.Client.svg?style=plastic)](https://www.nuget.org/packages/Binance.API.Csharp.Client)
-[![NuGet](https://img.shields.io/nuget/dt/Binance.API.Csharp.Client.svg?style=plastic)](https://www.nuget.org/packages/Binance.API.Csharp.Client)
+[![GitHub last commit](https://img.shields.io/github/last-commit/morpheums/BinanceClient.svg?style=plastic)]()
+[![NuGet](https://img.shields.io/nuget/v/BinanceClient.svg?style=plastic)](https://www.nuget.org/packages/BinanceClient)
+[![NuGet](https://img.shields.io/nuget/dt/BinanceClient.svg?style=plastic)](https://www.nuget.org/packages/BinanceClient)
 
 ## Features
 - **Very easy** to understand and get started.
@@ -15,11 +15,11 @@
 
 **Nuget Package Manager**
 ```
-PM> Install-Package Binance.API.Csharp.Client
+PM> Install-Package BinanceClient
 ```
 **.NET CLI**
 ```
-dotnet add package Binance.API.Csharp.Client
+dotnet add package BinanceClient
 ```
 ## Getting Started
 In order to use signed methods you need to [create a Binance account](https://www.binance.com/register.html?ref=10200312), if you already have one, go to your account and create a new API private key.
@@ -48,7 +48,7 @@ Create an instance of the **BinanceClient** which will receive the previously cr
 - [WebSocket Methods](/Documentation/WebSocketMethods.md)
 
 ## License
-Binance.API.Csharp.Client is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+BinanceClient is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 ## Code of Conduct
 Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).

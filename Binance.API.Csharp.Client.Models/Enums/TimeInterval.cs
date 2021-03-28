@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Binance.API.Csharp.Client.Models.Enums
+namespace BinanceClient.Models.Enums
 {
     /// <summary>
     /// Time interval for the candlestick.

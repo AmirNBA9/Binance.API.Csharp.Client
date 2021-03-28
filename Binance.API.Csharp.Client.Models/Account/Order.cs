@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Binance.API.Csharp.Client.Models.Account
+namespace BinanceClient.Models.Account
 {
     public class Order
     {

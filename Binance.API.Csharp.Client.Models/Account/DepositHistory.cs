@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Binance.API.Csharp.Client.Models.Account
+namespace BinanceClient.Models.Account
 {
     public class Deposit
     {

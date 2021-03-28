@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using WebSocketSharp;
 
-namespace Binance.API.Csharp.Client.Domain.Abstract
+namespace BinanceClient.Domain.Abstract
 {
     public abstract class ApiClientAbstract
     {

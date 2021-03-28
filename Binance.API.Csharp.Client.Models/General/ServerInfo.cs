@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Binance.API.Csharp.Client.Models.General
+namespace BinanceClient.Models.General
 {
     public class ServerInfo
     {

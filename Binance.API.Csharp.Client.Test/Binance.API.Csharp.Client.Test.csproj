@@ -7,8 +7,8 @@
     <ProjectGuid>{6F565960-4CB7-4292-9B46-17EF0E70EBBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Binance.API.Csharp.Client.Test</RootNamespace>
-    <AssemblyName>Binance.API.Csharp.Client.Test</AssemblyName>
+    <RootNamespace>BinanceClient.Test</RootNamespace>
+    <AssemblyName>BinanceClient.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,17 +60,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Binance.API.Csharp.Client.Domain\Binance.API.Csharp.Client.Domain.csproj">
+    <ProjectReference Include="..\BinanceClient.Domain\BinanceClient.Domain.csproj">
       <Project>{e255f763-a2fe-43a8-9331-019796c935c7}</Project>
-      <Name>Binance.API.Csharp.Client.Domain</Name>
+      <Name>BinanceClient.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Binance.API.Csharp.Client.Models\Binance.API.Csharp.Client.Models.csproj">
+    <ProjectReference Include="..\BinanceClient.Models\BinanceClient.Models.csproj">
       <Project>{7cf40eb8-d81d-40b5-b849-17e5662175d6}</Project>
-      <Name>Binance.API.Csharp.Client.Models</Name>
+      <Name>BinanceClient.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Binance.API.Csharp.Client\Binance.API.Csharp.Client.csproj">
+    <ProjectReference Include="..\BinanceClient\BinanceClient.csproj">
       <Project>{ec2a020e-338a-46ee-9d08-c158cbd49c92}</Project>
-      <Name>Binance.API.Csharp.Client</Name>
+      <Name>BinanceClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

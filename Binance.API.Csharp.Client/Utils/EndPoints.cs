@@ -1,4 +1,4 @@
-﻿namespace Binance.API.Csharp.Client.Utils
+﻿namespace BinanceClient.Utils
 {
     /// <summary>
     /// Public class to store all end points.

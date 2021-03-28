@@ -37,4 +37,4 @@ Create an instance of the **BinanceClient** which will receive the previously cr
 ## Donations
 If you find this tool useful, you can show you support with a kind donation:
 
-** USDT:** TEzHBMGGsGnyBimELJPnDppiLviDo2xN7Z
+** USDT: TEzHBMGGsGnyBimELJPnDppiLviDo2xN7Z

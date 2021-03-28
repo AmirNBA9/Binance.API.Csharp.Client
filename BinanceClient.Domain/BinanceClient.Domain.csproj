@@ -4,16 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC2A020E-338A-46EE-9D08-C158CBD49C92}</ProjectGuid>
+    <ProjectGuid>{E255F763-A2FE-43A8-9331-019796C935C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Binance.API.Csharp.Client</RootNamespace>
-    <AssemblyName>Binance.API.Csharp.Client</AssemblyName>
+    <RootNamespace>BinanceClient.Domain</RootNamespace>
+    <AssemblyName>BinanceClient.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,28 +44,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiClient.cs" />
-    <Compile Include="BinanceClient.cs" />
+    <Compile Include="Abstract\ApiClientAbstract.cs" />
+    <Compile Include="Abstract\BinanceClientAbstract.cs" />
+    <Compile Include="Interfaces\IApiClient.cs" />
+    <Compile Include="Interfaces\IBinanceClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\EndPoints.cs" />
-    <Compile Include="Utils\CustomParser.cs" />
-    <Compile Include="Utils\ExtensionMethods.cs" />
-    <Compile Include="Utils\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Binance.API.Csharp.Client.Domain\BinanceClient.Domain.csproj">
-      <Project>{e255f763-a2fe-43a8-9331-019796c935c7}</Project>
-      <Name>BinanceClient.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Binance.API.Csharp.Client.Models\BinanceClient.Models.csproj">
+    <ProjectReference Include="..\BinanceClient.Models\BinanceClient.Models.csproj">
       <Project>{7cf40eb8-d81d-40b5-b849-17e5662175d6}</Project>
       <Name>BinanceClient.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

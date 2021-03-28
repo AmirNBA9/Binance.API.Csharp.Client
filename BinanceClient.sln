@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceClient", "Binance.API.Csharp.Client\BinanceClient.csproj", "{EC2A020E-338A-46EE-9D08-C158CBD49C92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceClient", "BinanceClient\BinanceClient.csproj", "{EC2A020E-338A-46EE-9D08-C158CBD49C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceClient.Models", "Binance.API.Csharp.Client.Models\BinanceClient.Models.csproj", "{7CF40EB8-D81D-40B5-B849-17E5662175D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceClient.Models", "BinanceClient.Models\BinanceClient.Models.csproj", "{7CF40EB8-D81D-40B5-B849-17E5662175D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceClient.Domain", "Binance.API.Csharp.Client.Domain\BinanceClient.Domain.csproj", "{E255F763-A2FE-43A8-9331-019796C935C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceClient.Domain", "BinanceClient.Domain\BinanceClient.Domain.csproj", "{E255F763-A2FE-43A8-9331-019796C935C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

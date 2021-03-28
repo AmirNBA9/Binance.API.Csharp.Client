@@ -1,8 +1,5 @@
-# Binance API Csharp Client ![Icon](https://github.com/morpheums/BinanceClient/blob/master/BinanceClient/BinanceLogo.png?raw=true)
+# Binance API Csharp Client !
 ### C#.NET client for Binance Exchange API.
-[![GitHub last commit](https://img.shields.io/github/last-commit/morpheums/BinanceClient.svg?style=plastic)]()
-[![NuGet](https://img.shields.io/nuget/v/BinanceClient.svg?style=plastic)](https://www.nuget.org/packages/BinanceClient)
-[![NuGet](https://img.shields.io/nuget/dt/BinanceClient.svg?style=plastic)](https://www.nuget.org/packages/BinanceClient)
 
 ## Features
 - **Very easy** to understand and get started.
@@ -11,16 +8,6 @@
 - API results **deserialized** to concrete objects for ease of usage.
 - Includes a **ready to go** test project with **all possible API calls**, just provide your API Key and Secret.
 
-## Installation
-
-**Nuget Package Manager**
-```
-PM> Install-Package BinanceClient
-```
-**.NET CLI**
-```
-dotnet add package BinanceClient
-```
 ## Getting Started
 In order to use signed methods you need to [create a Binance account](https://www.binance.com/register.html?ref=10200312), if you already have one, go to your account and create a new API private key.
 
@@ -46,12 +33,6 @@ Create an instance of the **BinanceClient** which will receive the previously cr
 - [Account Methods](/Documentation/AccountMethods.md)
 - [User Stream Methods](/Documentation/UserStreamMethods.md)
 - [WebSocket Methods](/Documentation/WebSocketMethods.md)
-
-## License
-BinanceClient is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-
-## Code of Conduct
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Donations
 If you find this tool useful, you can show you support with a kind donation:
